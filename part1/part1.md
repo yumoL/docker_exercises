@@ -13,3 +13,20 @@
 
 # 1.4
 <img src=https://github.com/yumoL/docker_exercises/blob/master/shortcuts/1.4.png>
+
+# 1.5
+```
+docker run -d --rm -it --name reader ubuntu:16.04 sh -c 'echo "Input website:"; read website; echo "Searching";sleep 1; curl http://$website;'
+```
+```
+docker exec -it reader bash
+```
+iniside the container
+```
+apt-get update
+apt-get install curl
+exit
+```
+```
+docker attach reader
+```
