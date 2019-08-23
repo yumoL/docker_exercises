@@ -30,3 +30,8 @@ exit
 ```
 docker attach reader
 ```
+# 1.6
+[Dockerfile](https://github.com/yumoL/docker_exercises/blob/master/part1/1.6/Dockerfile)
+```
+docker run -it docker-clock
+```
