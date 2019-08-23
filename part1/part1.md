@@ -21,8 +21,8 @@ docker run -d --rm -it --name reader ubuntu:16.04 sh -c 'echo "Input website:"; 
 ```
 docker exec -it reader bash
 ```
-iniside the container
 ```
+# inside the container
 apt-get update
 apt-get install curl
 exit
