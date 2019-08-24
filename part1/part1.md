@@ -35,3 +35,15 @@ docker attach reader
 ```
 docker run -it docker-clock
 ```
+# 1.7
+[Dockerfile](https://github.com/yumoL/docker_exercises/blob/master/part1/1.7/Dockerfile)
+
+[script](https://github.com/yumoL/docker_exercises/blob/master/part1/1.7/script.sh)
+``` 
+# build the image
+docker build -t curler .
+```
+```
+# run a container
+docker run -it curler
+```
