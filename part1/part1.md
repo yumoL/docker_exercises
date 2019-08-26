@@ -47,3 +47,17 @@ docker build -t curler .
 # run a container
 docker run -it curler
 ```
+# 1.8
+```
+# pull the image
+docker pull devopsdockeruh/first_volume_exercise
+```
+```
+# create a new file in host
+touch logs.txt
+```
+```
+# start the container with bind mount
+docker run -v $(pwd)/logs.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exercise
+```
+
