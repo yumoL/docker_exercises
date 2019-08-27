@@ -64,6 +64,12 @@ docker run -v $(pwd)/logs.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exer
 ```
 docker run -p 3000:80 devopsdockeruh/ports_exercise
 ```
+# 1.10
+[Dockerfile](https://github.com/yumoL/docker_exercises/blob/master/part1/1.10/Dockerfile)
+```
+docker build -t frontend .
+docker run -it -p 5000:5000 frontend
+```
 
 
 
