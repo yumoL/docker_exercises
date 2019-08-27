@@ -60,4 +60,10 @@ touch logs.txt
 # start the container with bind mount
 docker run -v $(pwd)/logs.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exercise
 ```
+# 1.9
+```
+docker run -p 3000:80 devopsdockeruh/ports_exercise
+```
+
+
 
