@@ -77,6 +77,14 @@ docker build -t backend .
 touch logs.txt
 docker run -it -v $(pwd)/logs.txt:/mydir/logs.txt -p 8000:8000 backend
 ```
+# 1.12
+[Dockerfile for frontend](https://github.com/yumoL/docker_exercises/tree/master/part1/1.12/frontend)
+[Dockerfile for backend](https://github.com/yumoL/docker_exercises/blob/master/part1/1.12/backend/Dockerfile)
 
-
+```
+docker build -t backend2 .
+docker build -t frontend2 .
+docker run -d -p 8000:8000 --name b2 backend2
+docker run -d -p 5000:5000 --name f2 frontend2
+```
 
