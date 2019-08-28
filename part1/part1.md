@@ -78,7 +78,7 @@ touch logs.txt
 docker run -it -v $(pwd)/logs.txt:/mydir/logs.txt -p 8000:8000 backend
 ```
 # 1.12
-[Dockerfile for frontend](https://github.com/yumoL/docker_exercises/tree/master/part1/1.12/frontend)
+[Dockerfile for frontend](https://github.com/yumoL/docker_exercises/tree/master/part1/1.12/frontend/Dockerfile)
 
 [Dockerfile for backend](https://github.com/yumoL/docker_exercises/blob/master/part1/1.12/backend/Dockerfile)
 
