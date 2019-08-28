@@ -70,6 +70,13 @@ docker run -p 3000:80 devopsdockeruh/ports_exercise
 docker build -t frontend .
 docker run -it -p 5000:5000 frontend
 ```
+# 1.11
+[Dockerfile](https://github.com/yumoL/docker_exercises/blob/master/part1/1.11/Dockerfile)
+```
+docker build -t backend .
+touch logs.txt
+docker run -it -v $(pwd)/logs.txt:/mydir/logs.txt -p 8000:8000 backend
+```
 
 
 
