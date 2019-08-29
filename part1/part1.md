@@ -94,4 +94,9 @@ docker run -d -p 5000:5000 --name f2 frontend2
 docker build -t java_spring .
 docker run -d -p 8080:8080 --name spring java_spring
 ```
-
+# 1.14
+[Dockerfile](https://github.com/yumoL/docker_exercises/blob/master/part1/1.14/Dockerfile)
+```
+docker build -t rails .
+docker run -d -p 3000:3000 --name rail_project rails
+```
