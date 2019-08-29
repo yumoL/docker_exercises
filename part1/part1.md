@@ -88,4 +88,10 @@ docker build -t frontend2 .
 docker run -d -p 8000:8000 --name b2 backend2
 docker run -d -p 5000:5000 --name f2 frontend2
 ```
+# 1.13
+[Dockerfile](https://github.com/yumoL/docker_exercises/blob/master/part1/1.13/Dockerfile)
+```
+docker build -t java_spring .
+docker run -d -p 8080:8080 --name spring java_spring
+```
 
