@@ -102,3 +102,6 @@ docker run -d -p 3000:3000 --name rail_project rails
 ```
 # 1.15
 [link to the project in Docker hub](https://hub.docker.com/r/yumol/country_information)
+
+# 1.16
+[link to Heroku](https://dashboard.heroku.com/apps/dockerexercise)
