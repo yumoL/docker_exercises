@@ -105,3 +105,11 @@ docker run -d -p 3000:3000 --name rail_project rails
 
 # 1.16
 [link to Heroku](https://dashboard.heroku.com/apps/dockerexercise)
+
+# 1.17
+[Dockerfile](https://github.com/yumoL/docker_exercises/blob/master/part1/1.17/Dockerfile)
+[link to image in Docker hub](https://hub.docker.com/r/yumol/devenv_node)
+ 
+### Description
+I created an environment where user can develope a web application using node (and react). The environment is ubuntu with node and npm downloaded. 
+
