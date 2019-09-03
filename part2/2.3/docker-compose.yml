@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  backend:
+    image: backend
+    environment:
+      - FRONT_URL=http://localhost:5000 npm start
+    ports:
+      - 8000:8000
+  frontend:
+    image: frontend
+    environment:
+      - API_URL=http://localhost:8000 npm start
+    ports:
+      - 5000:5000
