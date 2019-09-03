@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+
+    first-volume-exercise-ubuntu:
+      image: devopsdockeruh/first_volume_exercise
+      build: .
+      volumes:
+        - ${PWD}/logs.txt:/usr/app/logs.txt
+      container_name: first_volume_exercise
+    
