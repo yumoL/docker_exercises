@@ -34,4 +34,4 @@ docker-compose up -d --scale compute=3
 
 [docker-compose.yml](https://github.com/yumoL/docker_exercises/blob/master/part2/2.10/docker-compose.yml)
 
-I changed the envirnoment variable FRONT_URL of backend from "http://localhost:5000" to "http://localhost"
+I changed the envirnoment variable FRONT_URL of backend from `http://localhost:5000` to `http://localhost`
