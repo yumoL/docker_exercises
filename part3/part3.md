@@ -8,3 +8,10 @@ backend: 352MB
 frontend: 448MB
 
 backend: 324MB
+
+# 3.2
+[Dockerfile](https://github.com/yumoL/docker_exercises/blob/master/part3/3.2/Dockerfile)
+```
+docker build -t yle-dl .
+docker run -v $(pwd):/app yle-dl https://areena.yle.fi/1-50151655
+```
