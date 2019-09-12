@@ -20,3 +20,14 @@ docker run -v $(pwd):/app yle-dl https://areena.yle.fi/1-50151655
 
 [Dockerfile for backend](https://github.com/yumoL/docker_exercises/blob/master/part3/3.3/backend/Dockerfile)
 
+# 3.4
+### Before using node:alpine
+frontend: 448MB
+
+backend: 352MB
+
+### After using node:alpine
+frontend: 235MB [Dockerfile for frontend](https://github.com/yumoL/docker_exercises/blob/master/part3/3.4/frontend/Dockerfile)
+
+
+backend: 139MB [Dockerfile for frontend](https://github.com/yumoL/docker_exercises/blob/master/part3/3.4/backend/Dockerfile)
