@@ -40,3 +40,6 @@ backend: 139MB [Dockerfile for frontend](https://github.com/yumoL/docker_exercis
 
 [Dockerfile after optimizing](https://github.com/yumoL/docker_exercises/blob/master/part3/3.6/Dockerfile)
 
+# 3.7
+[text](https://github.com/yumoL/docker_exercises/blob/master/part3/3.7.md)
+
