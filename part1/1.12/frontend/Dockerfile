@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 WORKDIR /mydir
 
 ENV url http://localhost:8000
-COPY frontend-example-docker .
+COPY . .
 RUN apt-get update && apt-get install -y curl
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash
 RUN apt install -y nodejs

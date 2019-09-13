@@ -2,10 +2,12 @@ FROM node:alpine AS builder
 
 WORKDIR /app
 
+ENV API_URL=http://localhost:8000
+
 COPY . .
 
 RUN npm install && \
-    API_URL=http://localhost:8000 npm run build
+    npm run build
 
 FROM node:alpine
 
